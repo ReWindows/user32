@@ -1,0 +1,28 @@
+// Windissect exhaustive candidate class surface for user32.dll.
+// Experimental: declarations may contain unresolved PDB language ambiguities.
+#pragma once
+
+#include "windissect_abi.h"
+#include "windissect_forwards.h"
+#include "windissect_vcalls.h"
+#include "windissect_calls.h"
+#include "utilities/Scrollbar.h"
+#include "utilities/UserWindowPropMangerClassW.h"
+#include "utilities/UserWindowPropMangerClassA.h"
+#include "utilities/tagMNIDROPTARGET.h"
+#include "utilities/NonClient.h"
+#include "utilities/CLocalHookManager.h"
+#include "utilities/Control.h"
+#include "utilities/CGetMessageHook.h"
+#include "utilities/CCallWndProcHook.h"
+#include "utilities/CMouseHook.h"
+#include "utilities/DXGADAPTERSOURCEHASH.h"
+#include "utilities/SHAREDPROP.h"
+#include "utilities/ClientWindowInfoClass.h"
+#include "utilities/WindowServicesCommon.h"
+#include "utilities/PerfRegion.h"
+#include "utilities/Pointer.h"
+#include "utilities/CHookFactory.h"
+#include "utilities/InputTraceLogging.h"
+#include "controls/UserWinPropList.h"
+#include "utilities/Cursor.h"

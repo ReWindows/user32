@@ -1,0 +1,8 @@
+[package]
+name = "user32-sys"
+version = "0.1.0"
+edition = "2021"
+description = "Windissect-generated Rust FFI bindings for user32.dll. Windows only."
+license = "MIT"
+
+[dependencies]
